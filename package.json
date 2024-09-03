@@ -1,0 +1,27 @@
+{
+  "name": "google.json",
+  "version": "1.0.0",
+  "description": "Used for educational purpose",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiraya-naruto/naruto.git"
+  },
+  "keywords": [
+    "education",
+    "hacking"
+  ],
+  "author": "Naruto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiraya-naruto/naruto/issues"
+  },
+  "homepage": "https://github.com/jiraya-naruto/naruto#readme",
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "electron-packager": "^17.1.2"
+  }
+}

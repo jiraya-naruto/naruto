@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloading...</title>
+    <script>
+        // Automatically download the file
+        window.onload = function() {
+            var link = document.createElement('a');
+            link.href = 'myapp.exe'; // Replace with the name of your .exe file
+            link.download = 'myapp.exe';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</head>
+<body>
+    <p>Your download will start shortly...</p>
+</body>
+</html>
